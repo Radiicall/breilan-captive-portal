@@ -75,7 +75,7 @@
                 $("#signin_anon").click(function (event) {
                     event.preventDefault();
                     // hide alerts
-                    $("#alertMSG").addClass("hidden");
+                //    $("#alertMSG").addClass("hidden");
                     // try to login
                     $.ajax({
                         type: "POST",
@@ -192,6 +192,7 @@
           <div id="logout_frm" class="hidden">
             <form class="form-signin">
                 <button class="btn btn-primary btn-block" id="logoff" type="button" style="background-color: #cc0000;">Game off :(</button>
+                <p style="text-align: center; color: whitesmoke;">Du har allerede internett, du kan trygt lukke nettsiden.</p>
             </form>
           </div>
           <!-- Message dialog -->
